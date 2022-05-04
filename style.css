@@ -5,7 +5,42 @@ body {
     color: #5a5a5a;
   }
   
-  
+  /* Header, Navbar e Inicio */
+
+.container {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  width: 80%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 130px;
+  cursor: pointer;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;  /* 0 en el top / bottom (arriba/abajo) 20px en left/right (izq/der) */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+
   /* CAROUSEL
   -------------------------------------------------- */
   

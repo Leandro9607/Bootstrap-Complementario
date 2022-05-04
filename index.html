@@ -48,27 +48,37 @@
   </head>
   <body>
 <!-- Navbar -->    
+
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Inicio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Carousel</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-</header>
+
+  <!-- Barra de navegacion, Logo e Inicio -->
+
+      <div class="container">
+          <div class="navbar">
+              <img src="/images/logo-generico.jpg" class="logo" alt="Dulce Dina Logo"> <!-- el logo original esta en proceso de diseño */-->
+
+              <ul>
+                  <li class="nav-item">
+                      <a href="index.html">INICIO</a>                    
+                  </li>
+                  <li class="nav-item">
+                      <a href="#Nosotros">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#Pan-Dul">PANADERIA DULCE</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#Pan-Sal">PANADERIA SALADA</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#Ubicacion">UBICACION</a>
+                  </li>
+              </ul>
+          </div>          
+      </div>  
+
+  </header>
+
 
 <!-- Carousel -->
 <main>
@@ -131,7 +141,7 @@
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
+    <div id="Nosotros" class="row">
       <div class="col-lg-4">
         <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="/images/nosotrosmasando1.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
 
@@ -160,7 +170,7 @@
    <hr class="featurette-divider">
 
    <div class="row featurette">
-     <div class="col-md-7">
+     <div id="Pan-Dul" class="col-md-7">
        <h2 class="featurette-heading">Panaderia Dulce <span class="text-muted"></span></h2>
        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda molestias dolore pariatur. Ratione corporis illo dolorum quidem doloremque exercitationem! Id, pariatur architecto. Veniam ullam, delectus dolores facilis quisquam nam deserunt!</p>
      </div>
@@ -173,7 +183,7 @@
    <hr class="featurette-divider">
 
    <div class="row featurette">
-     <div class="col-md-7 order-md-2">
+     <div id="Pan-Sal" class="col-md-7 order-md-2">
        <h2 class="featurette-heading">Panaderia Salada <span class="text-muted"></span></h2>
        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis temporibus vitae dolorem dolor nisi ea eligendi natus, distinctio placeat dignissimos! Beatae porro ut, distinctio dignissimos sed libero vel ex at?</p>
      </div>
@@ -186,7 +196,7 @@
    <hr class="featurette-divider">
 
    <div class="row featurette">
-     <div class="col-md-7">
+     <div id="Ubicacion" class="col-md-7">
        <h2 class="featurette-heading">Ubicacion <span class="text-muted"></span></h2>
        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quis modi perferendis quae vero, minima sequi. Dolores quis aspernatur quam reiciendis fugit repellat, pariatur cupiditate laborum commodi alias eligendi iste!</p>
      </div>
